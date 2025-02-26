@@ -9986,7 +9986,7 @@ h6,
 
 /* Awards Section Styling */
 #awards {
-  background-color: #f8f9fa; /* Light background for the awards section */
+  background-color: #ffffff; /* Light background for the awards section */
   padding: 20px 0; /* Padding around the section */
   text-align: center; /* Center-align the text */
 }
@@ -10026,3 +10026,44 @@ h6,
   font-size: 14px; /* Smaller text for descriptions */
   color: #666; /* Lighter text color for descriptions */
 }
+
+
+#contact {
+  background-color: #0BCEAF; /* Light grey background for the contact section */
+  
+}
+
+.contact-method {
+  display: flex; /* Enables Flexbox for alignment */
+  align-items: center; /* Vertically aligns items in the center */
+  justify-content: center; /* Horizontally centers the content */
+  background: #ffffff; /* White background for each contact method */
+  padding: 20px; /* Padding inside each contact method box */
+  margin: 10px; /* Margin around each box to ensure they don't touch */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border-radius: 8px; /* Rounded corners for aesthetics */
+}
+
+.contact-method i {
+  font-size: 24px; /* Larger font size for icons */
+  color: #0BCEAF; /* Blue color for icons */
+  margin-right: 10px; /* Space between icon and text */
+}
+
+.contact-method a {
+  text-decoration: none; /* Removes underline from links */
+  color: #333; /* Dark grey color for text */
+  font-weight: 500; /* Medium font weight for readability */
+}
+
+#contact .row {
+  display: flex; /* Enables Flexbox for the row */
+  justify-content: center; /* Centers the columns horizontally in the row */
+}
+
+.col-lg-4 {
+  flex: 1; /* Each contact item takes equal space */
+  max-width: 250px; /* Maximum width for each contact item */
+  text-align: center; /* Ensures text is centered if it wraps */
+}
+
